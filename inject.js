@@ -35,7 +35,6 @@ module.exports = function (name, override) {
       ping: 5*MIN,
       handshake: 5*SEC
     },
-    path: path.join(home(), '.' + name),
     master: [],
     logging: { level: 'notice' },
     party: true //disable quotas
